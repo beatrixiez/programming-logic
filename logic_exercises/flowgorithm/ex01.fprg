@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno PROA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 01:06:56 "/>
+        <attribute name="created" value="QWx1bm8gUFJPQTtTUFJPQTEwOTU7MjAyMi0wNC0wMzsiMTI6MzY6MjcgIjsyNjM0"/>
+        <attribute name="edited" value="QWx1bm8gUFJPQTtTUFJPQTEwOTU7MjAyMi0wNC0wMzsiMDE6MDY6NTYgIjszOzI3NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, raio" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira o raio do c&#237;rculo&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="3.14 * raio ^ 2"/>
+            <output expression="&quot;A &#225;rea do c&#237;rculo corresponde a &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

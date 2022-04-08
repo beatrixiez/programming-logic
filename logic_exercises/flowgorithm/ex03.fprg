@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno PROA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 05:07:05 "/>
+        <attribute name="created" value="QWx1bm8gUFJPQTtTUFJPQTEwOTU7MjAyMi0wNC0wMzsiMTI6MzY6MjcgIjsyNjM0"/>
+        <attribute name="edited" value="QWx1bm8gUFJPQTtTUFJPQTEwOTU7MjAyMi0wNC0wMzsiMDU6MDc6MDUgIjs2OzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;Insira outro n&#250;mero&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <assign variable="total" expression="valor1*valor2"/>
+            <output expression="&quot;O resultado da multiplica&#231;&#227;o dos dois n&#250;meros &#233; &quot; &amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
